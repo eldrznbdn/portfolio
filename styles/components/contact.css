@@ -11,6 +11,15 @@
     font-size: var(--size-2xl);
     color: var(--clr-light);
     text-transform: capitalize;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    transition: transform 1s, box-shadow 0.3s;
+}
+
+.contact__title:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(75, 54, 59, 0.25),
+        0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+
 }
 
 .contact__description{
